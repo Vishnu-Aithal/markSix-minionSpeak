@@ -41,9 +41,21 @@ textarea {
     border-radius: 0.3rem;
     max-width: 90%;
     margin: 3rem 1rem;
-    
 }
 
+.contents p {
+    margin: 1rem 1rem 0rem;
+}
+
+#output-text {
+    border-style: solid;
+    border-color: var(--banana-color);
+    height: 5rem;
+    border-width: 0.2rem;
+    border-radius: 0.3rem;
+    max-width: 90%;
+    margin: 0.5rem 1rem 1rem;
+}
 
 
 button {
