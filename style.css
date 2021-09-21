@@ -1,27 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap');
+
 :root {
     --banana-color: #FBBF24;
 }
 
 body {
     font-family: 'Grechen Fuemen', cursive;
-    margin: 0 
+    margin: 0
 }
 
 .container-center {
-    position:relative;
+    position: relative;
     max-width: 550px;
-    margin:auto;
+    margin: auto;
     text-align: center;
     min-height: 100vh;
 }
+
 .contents {
     padding-bottom: 10rem;
     text-align: left;
 }
-textarea, button {
-    display:block;
-    margin: 1.5rem auto;  
+
+textarea,
+button {
+    display: block;
+    margin: 1.5rem auto;
 }
 
 header {
@@ -33,7 +37,7 @@ header {
 
 header h1 {
     margin-top: 0;
-} 
+}
 
 textarea {
     border-color: var(--banana-color);
@@ -70,9 +74,9 @@ footer {
     position: absolute;
     background-color: var(--banana-color);
     width: 100%;
-    border-radius: 0.5rem 0.5rem 0 0 ;
+    border-radius: 0.5rem 0.5rem 0 0;
     bottom: 0;
-    height:10rem;
+    height: 10rem;
 }
 
 footer p {
