@@ -2,11 +2,11 @@ var inputTextBox = document.querySelector("#input-text");
 var outputTextBox = document.querySelector("#output-text");
 var translateBtn = document.querySelector("#translate-btn");
 
-var url = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json"
-// var url = "https://api.funtranslations.com/translate/minion.json"
+// var url = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json"
+var url = "https://api.funtranslations.com/translate/minion.json"
 
 
-function apiUrlConstructor (text) {
+function apiUrlConstructor(text) {
     return `${url}?text=${text}`
 }
 
@@ -14,9 +14,8 @@ function apiUrlConstructor (text) {
 
 translateBtn.addEventListener("click", clickHandler)
 
-function clickHandler () {
+function clickHandler() {
     var inputText = inputTextBox.value;
     var apiUrl = apiUrlConstructor(inputText);
     fetch(apiUrl).then(response => response.json()).then(json => outputTextBox.innerText = json.contents.translated)
-    console.log("clicked");
 }
