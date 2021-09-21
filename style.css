@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 
 :root {
     --banana-color: #FBBF24;
 }
 
 body {
-    font-family: 'Grechen Fuemen', cursive;
+    font-family: 'Architects Daughter', cursive;
     margin: 0
 }
 
