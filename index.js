@@ -8,7 +8,7 @@ var url = "https://api.funtranslations.com/translate/minion.json"
 
 function apiUrlConstructor(text) {
     var encodedText = encodeURIComponent(text)
-    var queryUrl = `${url}?text=${encodedtext}`;
+    var queryUrl = `${url}?text=${encodedText}`;
     console.log(encodeURI(queryUrl));
     return encodeURI(queryUrl);
 }
