@@ -7,7 +7,10 @@ var url = "https://api.funtranslations.com/translate/minion.json"
 
 
 function apiUrlConstructor(text) {
-    return `${url}?text=${text}`
+    var encodedText = encodeURIComponent(text)
+    var queryUrl = `${url}?text=${encodedtext}`;
+    console.log(encodeURI(queryUrl));
+    return encodeURI(queryUrl);
 }
 
 // fetch(apiUrlConstructor("test")).then(responseFromServer => responseFromServer.json()).then(json => console.log(json.contents.translated))
