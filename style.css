@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 
 :root {
-    --banana-color: #FBBF24;
+    --banana-color: #fcff5b;
 }
 
 body {
@@ -15,6 +15,8 @@ body {
     margin: auto;
     text-align: center;
     min-height: 100vh;
+    background-image: url(/images/minion.jpg);
+
 }
 
 .contents {
@@ -45,10 +47,14 @@ textarea {
     border-radius: 0.3rem;
     max-width: 90%;
     margin: 3rem 1rem;
+    background-color: rgba(0,0,0,0.2);
+    color: white;
+    font-size: large;
 }
 
 .contents p {
     margin: 1rem 1rem 0rem;
+    color: white;
 }
 
 #output-text {
@@ -59,6 +65,10 @@ textarea {
     border-radius: 0.3rem;
     max-width: 90%;
     margin: 0.5rem 1rem 1rem;
+    background-color: rgba(0,0,0,0.2);
+    color: white;
+    font-size: large;
+    font-weight: bold;
 }
 
 
@@ -68,6 +78,8 @@ button {
     padding: 1rem;
     border-radius: 0.2rem;
     margin: 1rem;
+    font-weight: bold;
+    font-size: large;
 }
 
 footer {
