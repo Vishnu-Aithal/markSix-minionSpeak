@@ -15,7 +15,13 @@ function apiUrlConstructor(text) {
 }
 
 // fetch(apiUrlConstructor("test")).then(responseFromServer => responseFromServer.json()).then(json => console.log(json.contents.translated))
-
+inputTextBox.oninput = (event)=>{
+    if(event.target.value!=""){
+        translateBtn.removeAttribute("disabled");
+    } else {
+        translateBtn.setAttribute("disabled", "");
+    }
+}
 translateBtn.addEventListener("click", clickHandler)
 
 function clickHandler() {
