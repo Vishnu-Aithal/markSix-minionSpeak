@@ -1,6 +1,6 @@
 # markSix-minionSpeak
 
-A Translator App which translatetes to minionese
+A Translator App which translates to minionese
 
 > ### Tech Stack Used:
 - HTML5
